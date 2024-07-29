@@ -13,7 +13,7 @@ void loop()
   int trangthai=digitalRead(nut);
   Serial.println(trangthai);//In ra trạng thái hiện tại
  
-  if(trangthai==0)
+  if(trangthai==0)// do ban đầu có điện cấp vào nên led =1
   {
   digitalWrite(led,HIGH);
   }
